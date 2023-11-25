@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "matplotlib": "^1.0.0",
+    "pandas": "^0.0.3"
+  },
+  "name": "practice",
+  "version": "1.0.0",
+  "main": "prac.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,1 @@
+Do not name any pandas file / folder as "pandas.py" as that will interfere with the complier causing a "circular module"

@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    border: 2px solid;
+}
+body * {
+    padding: 10px;
+}
+.tab_input {
+    display: none;
+}
+.tab_label {
+    margin: 5px;
+    /* transition: border 200ms linear; */
+    /* border: 2px solid red; */
+    height: 10px;
+}
+.tab_content {
+    color: red;
+    order: 1;
+    display: none;
+    border-bottom: 2px solid #dddddd;
+}
+
+.tab_input:checked+.tab_label {
+    border-bottom: 2px solid green;
+}
+.tab_input:checked+.tab_label+.tab_content {
+    display: flex;
+    /* border: 2px solid; */
+}
+
